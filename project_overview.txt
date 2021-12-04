@@ -1,0 +1,24 @@
+Library System - 
+  - add new book 
+  - editing book 
+  - deleting book 
+  - categories 
+  - search
+  - users, login, signup
+  - settings [ categorie, author, publisher ]
+  - day to day operations  ( like renting a book, or retrieving a book ) 
+  - reports [store them in excel files ( adding and deleating categories , setting up information)]
+  
+  book : 
+    - title 
+    - description 
+    - category 
+    - price 
+    - author 
+    - publisher 
+ 
+  users : 
+    - username
+    - password 
+    - email address 
+    
