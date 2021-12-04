@@ -1,0 +1,9 @@
+<RCC>
+  <qresource>
+    <file>icons/calender.png</file>
+    <file>icons/books.png</file>
+    <file>icons/settings.png</file>
+    <file>icons/themes.png</file>
+    <file>icons/users.png</file>
+  </qresource>
+</RCC>
