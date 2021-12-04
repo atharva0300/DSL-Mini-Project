@@ -1,6 +1,6 @@
 # DSL-Mini-Project
-Calculator ( polynomial operations and Matrix calculations ) + Sorting Visualizer using PyQt5
-Calculator made using PyQt5 library's Qt Widgets module and UI design made using Qt designer
+### Library Management System using PyQt5 and MySql <br/>
+A fully featured library management system developed using python , pyqt with reports , dashboard and more.
 
 ## Credits
 Atharva Pingale : <a href="https://github.com/atharva0300">https://github.com/atharva0300<br/>
