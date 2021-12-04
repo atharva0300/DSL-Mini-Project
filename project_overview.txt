@@ -11,6 +11,7 @@ Library System -
   
   book : 
     - title 
+    - code ( ID ) 
     - description 
     - category 
     - price 
