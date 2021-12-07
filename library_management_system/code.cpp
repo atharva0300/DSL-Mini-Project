@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+int static id;
 class Library {
 private:
   struct {
-    int    id;
     string title;
     string publication;
     int    issue_date;
@@ -26,8 +27,10 @@ public:
   void put_data();
   void issue();
   void get_due_date();
+  void add_user();
 }
-}
+};
+
 // While issuing a book, will need a function, that checks the availability of
 // the book, and then give user a response.
 int main() {
@@ -55,6 +58,9 @@ int main() {
       one.issue();
     } else if (choice == 6) {
       one.get_due_date();
+    }
+    else if(choice==7)
+    { one.add_user();
     }
 
   } while (choice != 0);
