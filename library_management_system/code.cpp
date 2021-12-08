@@ -1,5 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*Linked list code
+needed to :
+1. Update prev node to NULL after node is created
+2. Add Display, insert node, delete node functions*/
+class DLL{
+    struct node{
+        int data;
+        node *next;
+        node* prev;
+    }*start,*current;
+    public:    
+    void CreateNode(){
+        node* temp;
+        temp= new node;
+        temp -> next=NULL;
+        cout<<"\n Enter the data";
+        cin>>temp->data;
+        if(start==NULL){
+            start=temp;
+            current=start;
+        }
+        else{
+            current->next=temp;
+            current=current->next;
+        }
+    }
+};
 
 
 int static id;
