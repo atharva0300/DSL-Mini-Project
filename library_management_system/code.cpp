@@ -4,13 +4,18 @@ using namespace std;
 needed to :
 1. Update prev node to NULL after node is created
 2. Add Display, insert node, delete node functions*/
+template <class T>
 class DLL{
     struct node{
-        int data;
+        T data;
         node *next;
         node* prev;
     }*start,*current;
-    public:    
+    public:
+    DLL(){
+        start=NULL;
+        current=NULL;
+    }    
     void CreateNode(){
         node* temp;
         temp= new node;
@@ -26,8 +31,16 @@ class DLL{
             current=current->next;
         }
     }
-};
+    void insert_node(){
+        
+    }
+    void delete_node(){
 
+    }
+    void display_node(){
+
+    }
+};
 
 int static id;
 class Library {
