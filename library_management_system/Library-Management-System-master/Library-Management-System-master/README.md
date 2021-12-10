@@ -14,4 +14,4 @@ Our project is a library management system developed in C++ using data structure
 3.	So basically our every node in BST contains a linked list.
 
 ### Running Instruction
-As our project is getting the data from a text file. So, the directory must be changed in the code at line no 610. Datafile.txt is included in the zip file.
+As our project is getting the data from a text file. So, the directory must be changed in the code at line no 610. Datafile.txt is included in the zip file. 
